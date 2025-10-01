@@ -33,7 +33,8 @@ CVE-2025-34174,,Netgate pfSense Status_Traffic_Totals Package Stored Cross-Site 
 CVE-2025-34175,,Netgate pfSense Suricata Package Reflected Cross-Site Scripting,https://redmine.pfsense.org/issues/16414,Pellera Technologies
 CVE-2025-34176,,Netgate pfSense Suricata Package Directory Traversal,https://redmine.pfsense.org/issues/16414,Pellera Technologies
 CVE-2025-34177,,Netgate pfSense Suricata Package Stored Cross-Site Scripting,https://redmine.pfsense.org/issues/16414,Pellera Technologies
-CVE-2025-34178,,Netgate pfSense Suricata Package Stored Cross-Site Scripting,https://redmine.pfsense.org/issues/16414,Pellera Technologies`;
+CVE-2025-34178,,Netgate pfSense Suricata Package Stored Cross-Site Scripting,https://redmine.pfsense.org/issues/16414,Pellera Technologies
+CVE-2025-34182,,Deciso OPNsense Point-to-Point Stored Cross-Site Scripting,https://docs.opnsense.org/releases/CE_25.7.html#september-30-2025,Pellera Technologies`;
   const lines = csvData.trim().split('\n');
   const headers = lines[0].split(',');
   const advisoryIndex = headers.indexOf('Advisory');
