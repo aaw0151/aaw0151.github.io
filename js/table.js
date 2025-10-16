@@ -35,7 +35,10 @@ CVE-2025-34176,,Netgate pfSense Suricata Package Directory Traversal,https://red
 CVE-2025-34177,,Netgate pfSense Suricata Package Stored Cross-Site Scripting,https://redmine.pfsense.org/issues/16414,Pellera Technologies
 CVE-2025-34178,,Netgate pfSense Suricata Package Stored Cross-Site Scripting,https://redmine.pfsense.org/issues/16414,Pellera Technologies
 CVE-2025-34182,,Deciso OPNsense Point-to-Point Stored Cross-Site Scripting,https://docs.opnsense.org/releases/CE_25.7.html#september-30-2025,Pellera Technologies
-CVE-2025-34248,,D-Link Nuclias Connect deleteBackup Directory Traversal,https://supportannouncement.us.dlink.com/security/publication.aspx?name=SAP10472,Pellera Technologies`;
+CVE-2025-34248,,D-Link Nuclias Connect deleteBackup Directory Traversal,https://supportannouncement.us.dlink.com/security/publication.aspx?name=SAP10472,Pellera Technologies
+CVE-2025-34253,,D-Link Nuclias Connect Configuration Profile Stored Cross-Site Scripting,https://supportannouncement.us.dlink.com/security/publication.aspx?name=SAP10472,Pellera Technologies
+CVE-2025-34254,,D-Link Nuclias Connect Login Account Enumeration,https://supportannouncement.us.dlink.com/security/publication.aspx?name=SAP10472,Pellera Technologies
+CVE-2025-34255,,D-Link Nuclias Connect Forgot Password Account Enumeration,https://supportannouncement.us.dlink.com/security/publication.aspx?name=SAP10472,Pellera Technologies`;
   const lines = csvData.trim().split('\n');
   const headers = lines[0].split(',');
   const advisoryIndex = headers.indexOf('Advisory');
