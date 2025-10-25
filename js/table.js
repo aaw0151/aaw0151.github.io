@@ -38,7 +38,9 @@ CVE-2025-34182,,Deciso OPNsense Point-to-Point Stored Cross-Site Scripting,https
 CVE-2025-34248,,D-Link Nuclias Connect deleteBackup Directory Traversal,https://supportannouncement.us.dlink.com/security/publication.aspx?name=SAP10472,Pellera Technologies
 CVE-2025-34253,,D-Link Nuclias Connect Configuration Profile Stored Cross-Site Scripting,https://supportannouncement.us.dlink.com/security/publication.aspx?name=SAP10472,Pellera Technologies
 CVE-2025-34254,,D-Link Nuclias Connect Login Account Enumeration,https://supportannouncement.us.dlink.com/security/publication.aspx?name=SAP10472,Pellera Technologies
-CVE-2025-34255,,D-Link Nuclias Connect Forgot Password Account Enumeration,https://supportannouncement.us.dlink.com/security/publication.aspx?name=SAP10472,Pellera Technologies`;
+CVE-2025-34255,,D-Link Nuclias Connect Forgot Password Account Enumeration,https://supportannouncement.us.dlink.com/security/publication.aspx?name=SAP10472,Pellera Technologies
+CVE-2025-34155,,Tibbo AggreGate Network Manager Login Functionality User Enumeration,https://www.vulncheck.com/advisories/tibbo-aggregate-network-manager-login-functionality-user-enumeration,Pellera Technologies
+CVE-2025-34156,,Tibbo AggreGate Network Manager happyaxis.jsp System Information Exposure,https://www.vulncheck.com/advisories/tibbo-aggregate-network-manager-system-information-exposure,Pellera Technologies`;
   const lines = csvData.trim().split('\n');
   const headers = lines[0].split(',');
   const advisoryIndex = headers.indexOf('Advisory');
