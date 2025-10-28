@@ -40,7 +40,25 @@ CVE-2025-34253,,D-Link Nuclias Connect Configuration Profile Stored Cross-Site S
 CVE-2025-34254,,D-Link Nuclias Connect Login Account Enumeration,https://supportannouncement.us.dlink.com/security/publication.aspx?name=SAP10472,Pellera Technologies
 CVE-2025-34255,,D-Link Nuclias Connect Forgot Password Account Enumeration,https://supportannouncement.us.dlink.com/security/publication.aspx?name=SAP10472,Pellera Technologies
 CVE-2025-34155,,Tibbo AggreGate Network Manager Login Functionality User Enumeration,https://www.vulncheck.com/advisories/tibbo-aggregate-network-manager-login-functionality-user-enumeration,Pellera Technologies
-CVE-2025-34156,,Tibbo AggreGate Network Manager happyaxis.jsp System Information Exposure,https://www.vulncheck.com/advisories/tibbo-aggregate-network-manager-system-information-exposure,Pellera Technologies`;
+CVE-2025-34156,,Tibbo AggreGate Network Manager happyaxis.jsp System Information Exposure,https://www.vulncheck.com/advisories/tibbo-aggregate-network-manager-system-information-exposure,Pellera Technologies
+CVE-2025-34301,,IPFire Location Group Stored Cross-Site Scripting,https://www.ipfire.org/blog/ipfire-2-29-core-update-198-released,Pellera Technologies
+CVE-2025-34302,,IPFire Service Creation Stored Cross-Site Scripting,https://www.ipfire.org/blog/ipfire-2-29-core-update-198-released,Pellera Technologies
+CVE-2025-34303,,IPFire Whitelisted Host Creation Stored Cross-Site Scripting,https://www.ipfire.org/blog/ipfire-2-29-core-update-198-released,Pellera Technologies
+CVE-2025-34304,,IPFire OpenVPN Connection Logs SQL Injection,https://www.ipfire.org/blog/ipfire-2-29-core-update-198-released,Pellera Technologies
+CVE-2025-34305,,IPFire cleanhtml() Stored Cross-Site Scripting,https://www.ipfire.org/blog/ipfire-2-29-core-update-198-released,Pellera Technologies
+CVE-2025-34306,,IPFire Default IP Search Stored Cross-Site Scripting,https://www.ipfire.org/blog/ipfire-2-29-core-update-198-released,Pellera Technologies
+CVE-2025-34307,,IPFire Default Country Search Stored Cross-Site Scripting,https://www.ipfire.org/blog/ipfire-2-29-core-update-198-released,Pellera Technologies
+CVE-2025-34308,,IPFire Default Time Sync Stored Cross-Site Scripting,https://www.ipfire.org/blog/ipfire-2-29-core-update-198-released,Pellera Technologies
+CVE-2025-34309,,IPFire Dynamic DNS Host Stored Cross-Site Scripting,https://www.ipfire.org/blog/ipfire-2-29-core-update-198-released,Pellera Technologies
+CVE-2025-34310,,IPFire Quality of Service Settings Stored Cross-Site Scripting,https://www.ipfire.org/blog/ipfire-2-29-core-update-198-released,Pellera Technologies
+CVE-2025-34311,,IPFire Proxy Report Creation Command Injection,https://www.ipfire.org/blog/ipfire-2-29-core-update-198-released,Pellera Technologies
+CVE-2025-34312,,IPFire URL Filter Blacklist Command Injection,https://www.ipfire.org/blog/ipfire-2-29-core-update-198-released,Pellera Technologies
+CVE-2025-34313,,IPFire User Quota Rule URL Filter Stored Cross-Site Scripting,https://www.ipfire.org/blog/ipfire-2-29-core-update-198-released,Pellera Technologies
+CVE-2025-34314,,IPFire Time Constraint URL Filter Stored Cross-Site Scripting,https://www.ipfire.org/blog/ipfire-2-29-core-update-198-released,Pellera Technologies
+CVE-2025-34315,,IPFire Remote Log Address Stored Cross-Site Scripting,https://www.ipfire.org/blog/ipfire-2-29-core-update-198-released,Pellera Technologies
+CVE-2025-34316,,IPFire Mail Server Settings Stored Cross-Site Scripting,https://www.ipfire.org/blog/ipfire-2-29-core-update-198-released,Pellera Technologies
+CVE-2025-34317,,IPFire DNS Settings Stored Cross-Site Scripting,https://www.ipfire.org/blog/ipfire-2-29-core-update-198-released,Pellera Technologies
+CVE-2025-34318,,IPFire Proxy Settings Stored Cross-Site Scripting,https://www.ipfire.org/blog/ipfire-2-29-core-update-198-released,Pellera Technologies`;
   const lines = csvData.trim().split('\n');
   const headers = lines[0].split(',');
   const advisoryIndex = headers.indexOf('Advisory');
