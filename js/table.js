@@ -58,7 +58,8 @@ CVE-2025-34314,,IPFire Time Constraint URL Filter Stored Cross-Site Scripting,ht
 CVE-2025-34315,,IPFire Remote Log Address Stored Cross-Site Scripting,https://www.ipfire.org/blog/ipfire-2-29-core-update-198-released,Pellera Technologies
 CVE-2025-34316,,IPFire Mail Server Settings Stored Cross-Site Scripting,https://www.ipfire.org/blog/ipfire-2-29-core-update-198-released,Pellera Technologies
 CVE-2025-34317,,IPFire DNS Settings Stored Cross-Site Scripting,https://www.ipfire.org/blog/ipfire-2-29-core-update-198-released,Pellera Technologies
-CVE-2025-34318,,IPFire Proxy Settings Stored Cross-Site Scripting,https://www.ipfire.org/blog/ipfire-2-29-core-update-198-released,Pellera Technologies`;
+CVE-2025-34318,,IPFire Proxy Settings Stored Cross-Site Scripting,https://www.ipfire.org/blog/ipfire-2-29-core-update-198-released,Pellera Technologies
+CVE-2025-12490,ZDI-25-979,Netgate pfSense CE Suricata Path Traversal Remote Code Execution,https://github.com/pfsense/FreeBSD-ports/commit/36b2303dfca35a1183d76f26bcc6ce26d4ea682d,Pellera Technologies`;
   const lines = csvData.trim().split('\n');
   const headers = lines[0].split(',');
   const advisoryIndex = headers.indexOf('Advisory');
